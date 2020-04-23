@@ -664,6 +664,18 @@ select.form-control.has-value{
         transition: border-bottom .3s ease-in-out, background .3s ease-in-out, padding .3s ease-in-out;
         -webkit-backface-visibility: hidden;
     }
+    .menu li a {
+        padding: 10px 40px;
+        border-radius: 20px;
+        border: 1px solid #f0f0f0;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    .menu li a:hover {
+        color: #000;
+        background-color: white;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
